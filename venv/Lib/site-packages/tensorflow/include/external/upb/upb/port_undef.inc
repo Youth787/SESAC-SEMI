@@ -1,21 +1,3 @@
-/* See port_def.inc.  This should #undef all macros #defined there. */
-
-#undef UPB_SIZE
-#undef UPB_FIELD_AT
-#undef UPB_READ_ONEOF
-#undef UPB_WRITE_ONEOF
-#undef UPB_INLINE
-#undef UPB_FORCEINLINE
-#undef UPB_NOINLINE
-#undef UPB_NORETURN
-#undef UPB_MAX
-#undef UPB_MIN
-#undef UPB_UNUSED
-#undef UPB_ASSERT
-#undef UPB_ASSERT_DEBUGVAR
-#undef UPB_UNREACHABLE
-#undef UPB_INFINITY
-#undef UPB_MSVC_VSNPRINTF
-#undef _upb_snprintf
-#undef _upb_vsnprintf
-#undef _upb_va_copy
+version https://git-lfs.github.com/spec/v1
+oid sha256:8c115c885e3d7ffc845f42eda2ef4668c14e58fc3acf2a3ea70125a31ead9463
+size 459

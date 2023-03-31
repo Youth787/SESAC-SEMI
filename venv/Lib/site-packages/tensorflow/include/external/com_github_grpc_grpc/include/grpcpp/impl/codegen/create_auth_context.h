@@ -1,33 +1,3 @@
-/*
- *
- * Copyright 2015 gRPC authors.
- *
- * Licensed under the Apache License, Version 2.0 (the "License");
- * you may not use this file except in compliance with the License.
- * You may obtain a copy of the License at
- *
- *     http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS,
- * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
- * See the License for the specific language governing permissions and
- * limitations under the License.
- *
- */
-
-#ifndef GRPCPP_IMPL_CODEGEN_CREATE_AUTH_CONTEXT_H
-#define GRPCPP_IMPL_CODEGEN_CREATE_AUTH_CONTEXT_H
-
-#include <memory>
-
-#include <grpc/impl/codegen/grpc_types.h>
-#include <grpcpp/impl/codegen/security/auth_context.h>
-
-namespace grpc {
-
-std::shared_ptr<const AuthContext> CreateAuthContext(grpc_call* call);
-
-}  // namespace grpc
-
-#endif  // GRPCPP_IMPL_CODEGEN_CREATE_AUTH_CONTEXT_H
+version https://git-lfs.github.com/spec/v1
+oid sha256:50194aa34a5836639d23a620e6ab2d6ba0555cb4ae9e7a8ae2e19e74336fcc2f
+size 987

@@ -1,32 +1,3 @@
-/*
- *
- * Copyright 2015 gRPC authors.
- *
- * Licensed under the Apache License, Version 2.0 (the "License");
- * you may not use this file except in compliance with the License.
- * You may obtain a copy of the License at
- *
- *     http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS,
- * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
- * See the License for the specific language governing permissions and
- * limitations under the License.
- *
- */
-
-#ifndef GRPC_CORE_LIB_GPR_STRING_WINDOWS_H
-#define GRPC_CORE_LIB_GPR_STRING_WINDOWS_H
-
-#include <grpc/support/port_platform.h>
-
-#ifdef GPR_WINDOWS
-
-/* These allocate new strings using gpr_malloc to convert from and to utf-8. */
-LPTSTR gpr_char_to_tchar(LPCSTR input);
-LPSTR gpr_tchar_to_char(LPCTSTR input);
-
-#endif /* GPR_WINDOWS */
-
-#endif /* GRPC_CORE_LIB_GPR_STRING_WINDOWS_H */
+version https://git-lfs.github.com/spec/v1
+oid sha256:acd1bd9ef82f0ceb58dfc6fde4cba9fcf7e1f215218cb512a42c5421ae0bc8f1
+size 987

@@ -1,3 +1,3 @@
-#ifndef EIGEN_AUTODIFF_MODULE_H
-#error "Please include unsupported/Eigen/AutoDiff instead of including headers inside the src directory directly."
-#endif
+version https://git-lfs.github.com/spec/v1
+oid sha256:4a202e14569f2a22b87150b0cea01eee51f7a4a91703fee4dd00242382ffdbdd
+size 154

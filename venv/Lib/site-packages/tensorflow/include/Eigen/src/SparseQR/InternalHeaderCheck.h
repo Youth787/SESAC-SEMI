@@ -1,3 +1,3 @@
-#ifndef EIGEN_SPARSEQR_MODULE_H
-#error "Please include Eigen/SparseQR instead of including headers inside the src directory directly."
-#endif
+version https://git-lfs.github.com/spec/v1
+oid sha256:ed259be48c40513d5b1584b1f140da7c1c5dfddf31c6501a5f432016f57c95ae
+size 142

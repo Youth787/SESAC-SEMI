@@ -1,31 +1,3 @@
-/* Copyright (c) 2015, Google Inc.
- *
- * Permission to use, copy, modify, and/or distribute this software for any
- * purpose with or without fee is hereby granted, provided that the above
- * copyright notice and this permission notice appear in all copies.
- *
- * THE SOFTWARE IS PROVIDED "AS IS" AND THE AUTHOR DISCLAIMS ALL WARRANTIES
- * WITH REGARD TO THIS SOFTWARE INCLUDING ALL IMPLIED WARRANTIES OF
- * MERCHANTABILITY AND FITNESS. IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR ANY
- * SPECIAL, DIRECT, INDIRECT, OR CONSEQUENTIAL DAMAGES OR ANY DAMAGES
- * WHATSOEVER RESULTING FROM LOSS OF USE, DATA OR PROFITS, WHETHER IN AN ACTION
- * OF CONTRACT, NEGLIGENCE OR OTHER TORTIOUS ACTION, ARISING OUT OF OR IN
- * CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE. */
-
-#ifndef OPENSSL_HEADER_CRYPTO_CONF_INTERNAL_H
-#define OPENSSL_HEADER_CRYPTO_CONF_INTERNAL_H
-
-#if defined(__cplusplus)
-extern "C" {
-#endif
-
-
-// CONF_VALUE_new returns a freshly allocated and zeroed |CONF_VALUE|.
-CONF_VALUE *CONF_VALUE_new(void);
-
-
-#if defined(__cplusplus)
-}  // extern C
-#endif
-
-#endif  // OPENSSL_HEADER_CRYPTO_CONF_INTERNAL_H
+version https://git-lfs.github.com/spec/v1
+oid sha256:c2c37dba9a38c132dcc24abac50713cb6c523d5411a285ac94bafb86b0e7610a
+size 1115

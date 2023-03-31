@@ -1,28 +1,3 @@
-/*
- *
- * Copyright 2018 gRPC authors.
- *
- * Licensed under the Apache License, Version 2.0 (the "License");
- * you may not use this file except in compliance with the License.
- * You may obtain a copy of the License at
- *
- *     http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS,
- * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
- * See the License for the specific language governing permissions and
- * limitations under the License.
- *
- */
-
-#ifndef GRPC_CORE_LIB_GPR_ALLOC_H
-#define GRPC_CORE_LIB_GPR_ALLOC_H
-
-#include <grpc/support/port_platform.h>
-
-/// Given a size, round up to the next multiple of sizeof(void*).
-#define GPR_ROUND_UP_TO_ALIGNMENT_SIZE(x) \
-  (((x) + GPR_MAX_ALIGNMENT - 1u) & ~(GPR_MAX_ALIGNMENT - 1u))
-
-#endif /* GRPC_CORE_LIB_GPR_ALLOC_H */
+version https://git-lfs.github.com/spec/v1
+oid sha256:5139b65cf62c0eb0ef31dba63166b44b3b2e08179a05112c1fc3858cb3bf80ad
+size 927

@@ -1,3 +1,3 @@
-#ifndef EIGEN_SPARSE_EXTRA_MODULE_H
-#error "Please include unsupported/Eigen/SparseExtra instead of including headers inside the src directory directly."
-#endif
+version https://git-lfs.github.com/spec/v1
+oid sha256:edb1aa5285048eb0a5938d42b3675f817407d6f2d2b587ecf9a9cd984af7dda6
+size 161
