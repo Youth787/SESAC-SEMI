@@ -1,0 +1,52 @@
+
+<!doctype html>
+{% load static %}
+<html lang="en">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" type="text/css" href="{% static 'bootstrap.min.css' %}">
+    <script src="{% static 'bootstrap.min.js' %}"></script>
+    <script src="{% static 'Webcam.js' %}"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script> <!-- $ : define -->
+
+
+</head>
+
+<div id="header">
+
+
+    <h1>HELLmet ON!</h1>
+
+ 
+ {% if user.is_authenticated %}
+  <a id="gologout" class="nav-link" href="{% url 'common:logout' %}"> 로그아웃</a>
+  {% else %}
+  <a id="gologin" class="nav-link" href="{% url 'common:login' %}">로그인</a>
+  {% endif %}
+  <h2>인공지능 헬멧 판독기</h2>
+  {% if not user.is_authenticated %}
+  <a id="gosignup"class="nav-link" href="{% url 'common:signup' %}">회원가입</a>
+  {% endif %}
+
+</div>
+
+<div class="background-image"></div>
+
+<!-- 기본 템플릿 안에 삽입될 내용 Start -->
+{% block content %}
+{% endblock %}
+<!-- 기본 템플릿 안에 삽입될 내용 End -->
+
+
+<div id="footer">
+    <p>Copyright &copy; 2023 SeSac 인공지능. <strong>헬맷온</strong></p>
+  </div>
+
+  </html>
+
+
+
+

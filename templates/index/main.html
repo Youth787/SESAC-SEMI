@@ -1,0 +1,30 @@
+
+{% extends 'base.html' %}
+{% block content %}
+<body>
+
+
+
+
+<div id="content">
+  <div id="colOne">
+    <div id="menu">
+      <ul>
+        <li><a class="a" href="{% url 'index:main' %}">메인</a></li>
+        <li><a class="a" href="{% url 'index:contact' %}">소개</a></li>
+        {% if user.is_authenticated %}
+        <li><a class="a" href="{% url 'index:vgg_16' %}">헬맷 인증</a></li>
+        {% comment %} <li><a class="a" href="{% url 'index:yolo' %}">헬맷 관리</a></li> {% endcomment %}
+        {% else %}
+        <li><a class="a" href="{% url 'common:login' %}">헬맷 인증</a></li>
+        {% comment %} <li><a class="a" href="{% url 'common:login' %}">헬맷 관리</a></li> {% endcomment %}
+        {% endif %}
+ 
+      </ul>
+    </div>
+  </div>
+</div>
+
+
+</body>
+{% endblock %}

@@ -1,0 +1,17 @@
+{% extends 'base.html' %}
+{% block content %}
+{% load static %}
+
+<body >
+
+
+<a class="a" href="{% url 'index:main' %}">Main</a><br>
+
+
+<img src="{% url 'index:capture_face' %}" width="640" height="480" />
+
+
+
+
+
+{% endblock %}

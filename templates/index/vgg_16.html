@@ -1,0 +1,24 @@
+{% extends 'base.html' %}
+{% block content %}
+<body>
+  
+        <a class="a" href="{% url 'index:main' %}">Main</a>
+
+        {% include "result.html" %}
+
+              <p>헬멧을 감지해야 결재할 수 있습니다.</p>
+              <br></br>
+        
+        <video id="video-element" autoplay></video>
+
+        <br></br>
+        <form id="simul" method="post" action="{% url 'index:upload' %}" style="display: none"enctype="multipart/form-data">
+            <br></br>
+            {% csrf_token %}
+            <canvas id="myCanvas" style="display: none"></canvas><br>
+        </form>
+        <input class="a2" type=button value="검사하기" onclick="takeSnapshot()">
+          
+
+</body>
+{% endblock %}
