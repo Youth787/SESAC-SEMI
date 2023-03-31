@@ -1,11 +1,3 @@
-from django.urls import path
-from django.contrib.auth import views as auth_views
-from . import views
-
-app_name = 'common'
-
-urlpatterns = [
-    path('login/', auth_views.LoginView.as_view(template_name='common/login.html'), name='login'),
-    path('logout/', auth_views.LogoutView.as_view(), name='logout'),
-    path('signup/', views.signup, name='signup'),
-]
+version https://git-lfs.github.com/spec/v1
+oid sha256:b0dbb187a8b66c124a42dbc8c7c46f6987c9294df8111082446a31277ab2eb70
+size 358

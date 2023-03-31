@@ -1,16 +1,3 @@
-from django.urls import path
-
-from . import views
-app_name = 'index'
-
-urlpatterns = [
-    path('', views.main, name='main'),
-    path("contact/", views.contact, name="contact"),
-    path("vgg_16/", views.vgg_16, name="vgg_16"),
-    # path("yolo/", views.yolo, name="yolo"),
-  
-    path('vgg_16/save-snapshot/', views.save_snapshot, name='save_snapshot'),
-    path("upload/", views.upload, name="upload"),
-    
-    # path('capture_face/', views.capture_face, name='capture_face'),
-]
+version https://git-lfs.github.com/spec/v1
+oid sha256:c098288c09cf0a2a22283dd985c5ba530ae5321fa2c967a28cf0bb8173148dce
+size 481
