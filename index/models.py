@@ -1,3 +1,6 @@
 from django.db import models
 
-# Create your models here.
+class Image(models.Model):
+    image_data = models.BinaryField()
+    class Meta:
+        app_label = 'index'
