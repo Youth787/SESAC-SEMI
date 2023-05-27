@@ -2,7 +2,7 @@
 
 ![스크린샷 2023-05-27 오후 7 13 57](https://github.com/Youth787/Sesac_Semi/assets/90955152/cee23757-60c6-4464-ab10-19fe42e24a98)
 
-팀명 : HeLLmet ON
+### HeLLmet ON \
 개발 기간 : 2023.03.06 ~ 2023.03.31 (25일)
 
 주제 : Helmet ON! 하지 않으면 Hell On!
