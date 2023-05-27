@@ -1,5 +1,7 @@
 # SeSAC 세미 프로젝트
 
+![스크린샷 2023-05-27 오후 7 12 42](https://github.com/Youth787/Sesac_Semi/assets/90955152/6cf897b3-9b3e-4b2b-9c36-2b862707f997)
+
 팀명 : HeLLmet ON
 팀원 : 김선홍, 김예빈, 윤희성, 정보석, 정연미
 
