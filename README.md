@@ -41,10 +41,12 @@
 |---|---|
 |<img width="395" height = "400" alt="e" src="https://github.com/Youth787/SESAC-SEMI/assets/90955152/0a687131-4ecc-42d1-a05b-e155429fdbb8">|<img width="395" height="400" alt="w" src="https://github.com/Youth787/SESAC-SEMI/assets/90955152/2bcebe9b-dfb1-467b-9e84-dede7a12b5da">|
 
+|결제 페이지|
+|---|
+|<img width="815" height="400" alt="o" src="https://github.com/Youth787/SESAC-SEMI/assets/90955152/03194c74-715e-4532-a873-8938710fb9d1">|
+
+
 ## Modeling
 https://github.com/seonhong416/SeSAC_Semi_Project
 
 
-|결제 페이지|
-|---|
-|<img width="815" height="400" alt="o" src="https://github.com/Youth787/SESAC-SEMI/assets/90955152/03194c74-715e-4532-a873-8938710fb9d1">|
